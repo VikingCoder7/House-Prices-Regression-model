@@ -9,20 +9,20 @@ test.csv: 1459 samples, 80 columns (no SalePrice).
 SalePrice: The house price.
 ## Steps
 
--Load Data: Import data using Pandas.
--Explore Data: Inspect first few rows and summary statistics.
--Handle Missing Values: 
-  -Categorical: Fill with mode.
-  -Numerical: Fill with median.
--Feature Engineering:
-  -Encode categorical variables. 
-  -Scale numerical features.
--Model: Build an XGBoost regression model.
+- Load Data: Import data using Pandas.
+- Explore Data: Inspect first few rows and summary statistics.
+- Handle Missing Values: 
+  - Categorical: Fill with mode.
+  - Numerical: Fill with median.
+- Feature Engineering:
+  - Encode categorical variables. 
+  - Scale numerical features.
+- Model: Build an XGBoost regression model.
 
 ## Requirements
 ### Install dependencies:
 !pip install pandas numpy scikit-learn xgboost
 
-##Usage
--Download dataset from Kaggle.
--Run house_price_prediction.ipynb to preprocess data and train the model:
+## Usage
+- Download dataset from Kaggle.
+- Run house_price_prediction.ipynb to preprocess data and train the model:
